@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	  "production": "webpack -p",
-	  "start": "webpack-dev-server"
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
   },
   "keywords": [
     "react"
@@ -14,7 +14,8 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react-dom": "^0.14.7",
+    "react-router": "~2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.6.5",
