@@ -8,6 +8,7 @@ var Home = require('../components/Home');
 var hashHistory =  ReactRouter.hashHistory;
 var PromptContainer = require('../containers/PromptContainer')
 
+
 var routes = (
 	<Router history={hashHistory}>
 		<Route path='/' component={Main}>
