@@ -1,7 +1,11 @@
 var React = require('react')
 
+function puke (object){
+	return <pre>{ JSON.stringify(object, null, ' ') }</pre>
+}
+
 function ConfirmBattle (props) {
-	return props.isLoading	=== true? <p> LOADING! </p> : <p> Confirm Battle</p>
+	return props.isLoading	=== true? <p> LOADING! </p> :  <div>Confirm Battle! {puke(props)}</div>
 		
 }
 
