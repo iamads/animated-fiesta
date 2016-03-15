@@ -1,11 +1,11 @@
 var axios = require('axios');
-var keys = require("../../keys");  
-var id = keys.id;
-var sec = keys.secret;
-var param = "?client_id=" + id + "&client_secret=" + sec;
+//var keys = require("../../keys");  
+//var id = keys.id;
+//var sec = keys.secret;
+//var param = "?client_id=" + id + "&client_secret=" + sec;
 
 function getUserInfo (username) {
-	return axios.get('https://api.github.com/users/' + username  + param)
+	return axios.get('https://api.github.com/users/' + username ) // + param)
 }
 
 var helpers = {
